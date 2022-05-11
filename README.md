@@ -1,5 +1,6 @@
 # mySTL
 实现了list,vector,dequeue,queue,stack,rbt,set,map.
+
 测试会指定一个rseed，调用rand函数获取测试数据。通过分别调用std::和hmz;:下面的容器对测试数据进行处理，得到的结果应该一样。
 //传递参数的时候最好采用const &的形式，因为这样不会调用拷贝构造函数
 
